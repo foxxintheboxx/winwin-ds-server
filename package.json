@@ -1,0 +1,17 @@
+{
+  "name": "ds-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "start-dev": "DB=mongodb://localhost:27017/winwin node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "deepstream.io": "git://github.com/foxxintheboxx/deepstream.io#mod-rpc",
+    "underscore": "latest",
+    "deepstream.io-storage-mongodb": "^1.0.2"
+  }
+}
